@@ -43,7 +43,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn
-PACKAGES="$PACKAGES	luci-i18n-transmission-zh-cn
+PACKAGES="$PACKAGES luci-i18n-transmission-zh-cn
 PACKAGES="$PACKAGES
 PACKAGES="$PACKAGES
 # 判断是否需要编译 Docker 插件

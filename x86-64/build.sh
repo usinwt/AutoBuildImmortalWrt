@@ -41,6 +41,7 @@ PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn
+
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn

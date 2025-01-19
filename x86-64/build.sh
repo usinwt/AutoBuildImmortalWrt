@@ -45,7 +45,6 @@ PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn
 PACKAGES="$PACKAGES luci-i18n-transmission-zh-cn
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn
-PACKAGES="$PACKAGES
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"

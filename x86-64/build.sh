@@ -42,7 +42,6 @@ PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-transmission-zh-cn"
 PACKAGES="$PACKAGES naiveproxy"
 PACKAGES="$PACKAGES luci-i18n-banip-zh-cn"
 # 判断是否需要编译 Docker 插件

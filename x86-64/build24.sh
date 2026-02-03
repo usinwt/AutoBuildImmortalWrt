@@ -61,7 +61,8 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
-PACKAGES="$PACKAGES naiveproxy"
+#PACKAGES="$PACKAGES naiveproxy"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # ======== shell/custom-packages.sh =======

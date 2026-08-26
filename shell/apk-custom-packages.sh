@@ -189,4 +189,4 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wifischedule-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES shadowsocks-rust-sslocal shadowsocks-rust-ssserver"
+

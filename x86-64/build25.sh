@@ -112,7 +112,10 @@ if echo "$PACKAGES" | grep -q "luci-app-ssr-plus"; then
 else
     echo "⚪️ 未选择 luci-app-ssr-plus"
 fi
-
+# Shadowsocks Rust
+git clone --depth=1 https://github.com/immortalwrt/packages.git /tmp/immortalwrt-packages
+cd /tmp/immortalwrt-packages/net/shadowsocks-rust
+make package/shadowsocks-rust/compile V=s
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
 echo "$PACKAGES"

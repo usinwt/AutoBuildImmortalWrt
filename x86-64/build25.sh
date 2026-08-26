@@ -20,7 +20,7 @@ EOF
 
 echo "cat pppoe-settings"
 cat /home/build/immortalwrt/files/etc/config/pppoe-settings
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES shadowsocks-rust-sslocal shadowsocks-rust-ssserver"
+
 if [ -z "$CUSTOM_PACKAGES" ]; then
   echo "⚪️ 未选择 任何第三方软件包"
 else

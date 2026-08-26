@@ -189,4 +189,9 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wifischedule-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
+mkdir -p extra-packages/shadowsocks-rust
+wget -q "https://sourceforge.net/projects/openwrt-passwall-build/files/releases/packages-25.12/x86_64/passwall_packages/shadowsocks-rust-sslocal-1.24.0-r1.apk/download" \
+  -O extra-packages/shadowsocks-rust/shadowsocks-rust-sslocal-1.24.0-r1.apk
 
+wget -q "https://sourceforge.net/projects/openwrt-passwall-build/files/releases/packages-25.12/x86_64/passwall_packages/shadowsocks-rust-ssserver-1.24.0-r1.apk/download" \
+  -O extra-packages/shadowsocks-rust/shadowsocks-rust-ssserver-1.24.0-r1.apk
